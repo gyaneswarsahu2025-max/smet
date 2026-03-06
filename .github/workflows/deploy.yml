@@ -11,12 +11,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20.x'
+
+      - name: Verify Node version
+        run: node -v
 
       - name: Install dependencies
         run: npm install
@@ -25,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: Upload build to cPanel
-        uses: appleboy/scp-action@master
+        uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USER }}

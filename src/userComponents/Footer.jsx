@@ -3,7 +3,7 @@ import { motion as Motion } from "framer-motion";
 import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import logo from "../assets/SMET-T.PNG";
+import logo from "../assets/SMET-T.png";
 
 const footerLinks = {
   company: ["About SMET", "Our Solutions", "Case Studies", "Careers"],

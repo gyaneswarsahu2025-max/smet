@@ -98,7 +98,7 @@ export default function AboutPage() {
               Power Continuity Engineering With Modern Infrastructure And Proven Delivery Discipline
             </h1>
             <p className="mt-4 max-w-3xl text-sm leading-7 text-white/80 md:text-lg">
-              SMET builds dependable UPS and power-protection solutions for homes, enterprises, and mission-critical operations. Our approach combines practical engineering, responsive service, and long-term reliability.
+          ddddddddddddddddddddddd
             </p>
             <div className="mt-6 grid gap-3 sm:grid-cols-3">
               <div className="rounded-xl border border-white/15 bg-white/10 p-3 backdrop-blur">

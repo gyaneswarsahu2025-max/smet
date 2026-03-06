@@ -5,7 +5,9 @@ import { loadSlim } from "@tsparticles/slim";
 
 const rowOne = [
 
-  
+    { name: "Infosys", logo: "https://cdn.simpleicons.org/infosys" },
+  { name: "Wipro", logo: "https://cdn.simpleicons.org/wipro" },
+  { name: "Tata", logo: "https://cdn.simpleicons.org/tata" },
   { name: "Siemens", logo: "https://cdn.simpleicons.org/siemens" },
   { name: "Cisco", logo: "https://cdn.simpleicons.org/cisco" },
   { name: "Accenture", logo: "https://cdn.simpleicons.org/accenture" },

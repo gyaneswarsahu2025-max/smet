@@ -33,5 +33,5 @@ jobs:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USER }}
           password: ${{ secrets.CPANEL_PASS }}
-          source: "dist/*"
+          source: "dist/"
           target: "/home/cakiweb/public_html/projects/smet"

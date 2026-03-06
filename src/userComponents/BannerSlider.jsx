@@ -53,7 +53,7 @@ export default function BannerSlider() {
             }`}
           >
             <div
-              className="absolute inset-0 bg-contain bg-center"
+              className="absolute inset-0 bg-cover bg-center"
               style={{ backgroundImage: `url('${slide.image}')` }}
             />
             <div className="absolute inset-0 bg-black/50 sm:bg-black/45" />

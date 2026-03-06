@@ -4,9 +4,8 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 const rowOne = [
-  { name: "Microsoft", logo: "https://cdn.simpleicons.org/microsoft" },
-  { name: "Amazon", logo: "https://cdn.simpleicons.org/amazon" },
-  { name: "IBM", logo: "https://cdn.simpleicons.org/ibm" },
+
+  
   { name: "Siemens", logo: "https://cdn.simpleicons.org/siemens" },
   { name: "Cisco", logo: "https://cdn.simpleicons.org/cisco" },
   { name: "Accenture", logo: "https://cdn.simpleicons.org/accenture" },
@@ -18,7 +17,7 @@ const rowTwo = [
   { name: "Tata", logo: "https://cdn.simpleicons.org/tata" },
   { name: "HCL", logo: "https://cdn.simpleicons.org/hcl" },
   { name: "Bosch", logo: "https://cdn.simpleicons.org/bosch" },
-  { name: "Capgemini", logo: "https://cdn.simpleicons.org/capgemini" },
+ 
 ];
 
 function LogoTrack({ items, reverse = false }) {
